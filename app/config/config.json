@@ -1,0 +1,33 @@
+{
+	"db": {
+		"username": "<MongoDBUsername>",
+		"password": "<MongoDBPassword>",
+		"host": "<MongoDBHost>",
+		"port": "<MongoDBPort>",
+		"name": "<MongoDBName>"
+	},
+	"sessionSecret": "<RandomString>",
+	"facebook": {
+		"clientID": "553383918331687",
+		"clientSecret": "b51b5c5ec1ee411003055d5351aac5ee",
+		"callbackURL": "/auth/facebook/callback",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"twitter": {
+		"consumerKey": "pjsPYgEga4KE89ijDRcHOZsUj",
+		"consumerSecret": "EIiaSn2NoRSv6T9JNtfZEGM6ZXfQM9wTq79VZTScIe5XRBc3YK",
+		"callbackURL": "/auth/twitter/callback",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"google": {
+		"clientID": "1081805800074-ugp6nnnj9866eshaut6dc2ilt2jd6lak.apps.googleusercontent.com",
+		"clientSecret": "MsmG2ViRY3anBMo5ABzjCMsm",
+		"callbackURL": "/auth/google/callback",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"redis": {
+		"host": "127.0.0.1",
+		"port": 6379,
+		"password": ""
+	}
+}
